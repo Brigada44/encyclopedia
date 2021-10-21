@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/encyclopedia/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.16944444444444445" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/encyclopedia/app/src/main/res/drawable/ic_hhh_background.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/encyclopedia/app/src/main/res/drawable/ic_image_1.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/encyclopedia/app/src/main/res/drawable/ic_image_2.xml" value="0.337037037037037" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/encyclopedia/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/encyclopedia/app/src/main/res/drawable/ic_yhhh.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/encyclopedia/app/src/main/res/drawable/pes_logo_screen.xml" value="0.3828125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/encyclopedia/app/src/main/res/mipmap-anydpi-v26/ic_hhh.xml" value="0.22135416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
