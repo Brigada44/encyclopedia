@@ -5,17 +5,13 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Scaffold
 import androidx.compose.material.Surface
-import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
+import androidx.compose.runtime.*
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
-import androidx.navigation.NavController
+import androidx.navigation.compose.rememberNavController
 import com.example.encyclopedia.navigation.Navigation
 import com.example.encyclopedia.screens.BottomAppBar
-import com.example.encyclopedia.screens.CardPost
-import com.example.encyclopedia.screens.SplashScreen
 import com.example.encyclopedia.ui.theme.EncyclopediaTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,25 +20,37 @@ class MainActivity : ComponentActivity() {
         setContent {
             EncyclopediaTheme {
                 // A surface container using the 'background' color from the theme
-                Surface(color = MaterialTheme.colors.background) {
-                    Box(
-                        Modifier.width(360.dp).height(220.dp)
-                    ){
-                        CardPost()
-                    }
+                var navController = rememberNavController()
 
-                 //   Navigation()
+                Scaffold(
+                    bottomBar = {
+                    BottomAppBar(navController = navController)
+                }) {
+                    Surface(color = MaterialTheme.colors.background) {
+                        Navigation(navController)
+
+
+                    }
                 }
+
             }
         }
     }
+
 }
+
 @Preview(showBackground = true)
 @Composable
 fun start(){
-    Box(
-        Modifier.width(300.dp).size(150.dp)
+    //MainMenuM()
+   /* Box(
+        Modifier
+            .width(300.dp)
+            .height(90.dp)
     ){
-        CardPost()
-    }
+
+    }*/
 }
+
+
+
