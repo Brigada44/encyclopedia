@@ -26,6 +26,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.example.encyclopedia.R
+import com.example.encyclopedia.cards.philosopherRegular
 import kotlinx.coroutines.delay
 
 @Composable
@@ -81,7 +82,7 @@ fun SplashScreen(navController: NavController){
             Text(text = "Encyclopedia",
                 style = TextStyle(
                     fontWeight = FontWeight.Bold,
-                    fontFamily = FontFamily.SansSerif,
+                    fontFamily = philosopherRegular,
                     fontSize =  26.sp
                 ),
                 modifier = Modifier.padding( top = 191.dp))
