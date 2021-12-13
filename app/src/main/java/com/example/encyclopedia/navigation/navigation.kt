@@ -22,7 +22,7 @@ import com.google.gson.Gson
 fun Navigation (navController: NavHostController)
 {
 
-    NavHost(navController = navController, startDestination = "splash_screen"){
+    NavHost(navController = navController, startDestination = "main_screen"){
         composable("splash_screen"){
             SplashScreen(navController)
         }
